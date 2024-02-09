@@ -16,7 +16,7 @@ const PokemonList = () => {
       >
         Favorite Pokemon
       </button>
-      <div className="grid md:grid-cols-5 grid-cols-2 xxs:grid-cols-2 ss:grid-cols-3 sm:grid-cols-4 gap-x-5 gap-y-10 px-5 ss:px-10 py-10">
+      <div className="grid md:grid-cols-5 grid-cols-1 xs:grid-cols-2 ss:grid-cols-3 sm:grid-cols-4 gap-x-5 gap-y-10 px-5 ss:px-10 py-10">
         {state.results.map((id) => (
           <PokemonCard key={id} id={id} />
         ))}
